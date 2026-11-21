@@ -1,1 +1,8 @@
-# clearurl
+! Title: agressiveurl.txt
+! Version: 22November2026v1
+! Expires: 1 day
+! Description: Custom uBlock Origin URL parameter cleaner for stripping share, referral, and session tracking parameters.
+
+! https://www•instagram•com/remxiic/?e=170fc06c-3820-409e-b6ab-160a562c5ce2&g=5 (22/11/2026)
+||instagram.com^$doc,removeparam=e
+||instagram.com^$doc,removeparam=g
